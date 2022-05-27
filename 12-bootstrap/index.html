@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body class="p-5">
+    <section>
+        <div class="container bg-light  w-60 m-auto">
+            <div class="m-5 py-5">
+                <h1 class="my-4 fw-bold">jumbotron</h1>
+                <p class="col-6 fs-4 ">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus eum tempora suscipit nisi
+                    praesentium eos ipsa possimus nemo enim, vitae quibusdam architecto dignissimos quam quo et cum
+                    deleniti vel id.
+                </p>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    lanzar modal
+                </button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">modal lanzado</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe, quas omnis
+                                dignissimos eos nihil quisquam facilis ab at minus culpa beatae impedit suscipit
+                                obcaecati aliquid excepturi quam quidem vero.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                                <button type="button" class="btn btn-primary">Si</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section>
+
+    <div class="container">
+        <form action="" class="">
+            <div class="my-4">
+                <label for="nombre" class="form-label">Tu nombre</label>
+                <input type="text" id="nombre" class="form-control">
+            </div>
+
+            <div class="my-4">
+                <label for="telefono" class="form-label">tu telefono</label>
+                <input type="number" class="form-control" id="telefono" />
+            </div>
+
+            <div class="my-4">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" placeholder="tu menjase aqui..."></textarea>
+            </div>
+
+        </form>
+    </section>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="card col-4 my-5">
+                <div class="card-body">
+                    <h4 class="card-title">Juel Vargas</h4>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod blanditiis iste
+                        est optio tenetur, ratione qui, quas facere vero corrupti necessitatibus placeat illo
+                        laudantium, in accusantium harum molestiae ea? Recusandae.
+                    </p>
+                    <a href="mailto:juelvargasrojas@gmail.com" class="card-link" >correo electronico</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</html>
